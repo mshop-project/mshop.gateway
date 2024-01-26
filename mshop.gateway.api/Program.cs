@@ -10,7 +10,19 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddReverseProxy()
     .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
 
+builder.Services.AddCors(options =>
+    options.AddPolicy(name: "CORS",
+            policy =>
+            {
+                policy.WithOrigins("*")
+                 .AllowAnyHeader()
+                 .AllowAnyMethod()
+                 .AllowAnyOrigin();
+            }));
+
 var app = builder.Build();
+app.UseCors("CORS");
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
