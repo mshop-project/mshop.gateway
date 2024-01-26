@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mshop.gateway", "mshop.gateway\mshop.gateway.csproj", "{7E2134B4-7040-4B40-85E1-189C32327A1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mshop.gateway.api", "mshop.gateway.api\mshop.gateway.api.csproj", "{31DDF76C-5F17-4576-89DC-BCB19ABAE0E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E2134B4-7040-4B40-85E1-189C32327A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E2134B4-7040-4B40-85E1-189C32327A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E2134B4-7040-4B40-85E1-189C32327A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E2134B4-7040-4B40-85E1-189C32327A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DDF76C-5F17-4576-89DC-BCB19ABAE0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DDF76C-5F17-4576-89DC-BCB19ABAE0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DDF76C-5F17-4576-89DC-BCB19ABAE0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DDF76C-5F17-4576-89DC-BCB19ABAE0E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
